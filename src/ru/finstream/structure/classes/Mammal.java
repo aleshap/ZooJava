@@ -10,15 +10,15 @@ abstract public class Mammal extends Animal implements MammalIface {
     /**
      * Кол-во ног
      */
-    private int CountOfLegs;
+    private int countOfLegs;
 
     public boolean setCountOfLegs(int value){
-        this.CountOfLegs=value;
+        this.countOfLegs =value;
         return true;
     };
 
     public int getCountOfLegs(){
-        return this.CountOfLegs;
+        return this.countOfLegs;
     };
 
 }

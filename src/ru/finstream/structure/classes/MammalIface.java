@@ -5,8 +5,7 @@
  */
 public interface MammalIface {
 
-    public boolean setCountOfLegs(int value);
+    boolean setCountOfLegs(int value);
 
-    public int getCountOfLegs();
-
+    int getCountOfLegs();
 }

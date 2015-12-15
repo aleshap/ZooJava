@@ -5,8 +5,8 @@ package ru.finstream.structure.kinds;
  */
 public interface HorseIface {
 
-    public boolean setIsOutForRide(boolean value);
+    boolean setIsOutForRide(boolean value);
 
-    public boolean getIsOutForRide();
+    boolean getIsOutForRide();
 
 }

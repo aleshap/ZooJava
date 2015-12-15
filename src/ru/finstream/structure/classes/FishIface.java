@@ -7,8 +7,7 @@ public interface FishIface {
 
     enum enumWhereIsHome {River,See,Ocean};
 
-    public boolean setWhereIsHome(enumWhereIsHome value);
+    boolean setWhereIsHome(enumWhereIsHome value);
 
-    public enumWhereIsHome getWhereIsHome();
-
+    enumWhereIsHome getWhereIsHome();
 }

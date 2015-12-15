@@ -53,18 +53,3 @@ abstract public class Bird extends Animal implements BirdIface {
 
 }
 
-interface BirdIface {
-
-    public boolean setColor(String value);
-
-    public String getColor();
-
-    public boolean setSize(int value);
-
-    public int getSize();
-
-    public boolean setIsSing(boolean value);
-
-    public boolean getIsSing();
-
-}
