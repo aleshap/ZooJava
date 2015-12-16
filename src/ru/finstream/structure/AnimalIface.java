@@ -1,4 +1,4 @@
-﻿package ru.finstream.structure;
+package ru.finstream.structure;
 
 import ru.finstream.structure.exception.ErrAnimalIsEat;
 import ru.finstream.structure.exception.ErrAnimalIsMove;

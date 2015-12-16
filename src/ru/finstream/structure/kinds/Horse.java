@@ -1,4 +1,4 @@
-﻿package ru.finstream.structure.kinds;
+package ru.finstream.structure.kinds;
 
 import ru.finstream.structure.classes.*;
 /**
@@ -7,7 +7,7 @@ import ru.finstream.structure.classes.*;
 public class Horse extends Mammal {
 
     /**
-     * Ћощадь дл¤ езды
+     * Лошаль для езды
      */
     private boolean IsOutForRide;
 

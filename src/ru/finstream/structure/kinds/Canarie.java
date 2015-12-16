@@ -1,4 +1,4 @@
-﻿package ru.finstream.structure.kinds;
+package ru.finstream.structure.kinds;
 
 import ru.finstream.structure.classes.*;
 /**

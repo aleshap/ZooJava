@@ -1,4 +1,4 @@
-﻿package ru.finstream.structure.classes;
+package ru.finstream.structure.classes;
 
 import ru.finstream.structure.Animal;
 

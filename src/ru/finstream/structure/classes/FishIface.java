@@ -1,4 +1,4 @@
-﻿package ru.finstream.structure.classes;
+package ru.finstream.structure.classes;
 
 /**
  * Created by pav on 08.12.2015.

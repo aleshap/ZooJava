@@ -1,4 +1,4 @@
-﻿package ru.finstream.structure;
+package ru.finstream.structure;
 
 import ru.finstream.typesof.gps;
 
@@ -18,7 +18,7 @@ abstract public class Animal implements AnimalIface {
      * @return - true \ false - Животное наелось
      */
     public boolean eat(String product){
-     return true;
+        return true;
     };
 
     /**
@@ -27,7 +27,7 @@ abstract public class Animal implements AnimalIface {
      * @return - true \ false - Успешно
      */
     public boolean move(gps point) {
-      return true;
+        return true;
     };
 
 
@@ -37,7 +37,7 @@ abstract public class Animal implements AnimalIface {
      * @return - true \ false - Успешно
      */
     public boolean sleep(int time){
-     return true;
+        return true;
     }
 
 }
