@@ -6,6 +6,8 @@
 
     <groupId>ru.finstream</groupId>
     <artifactId>ZooJava</artifactId>
+    <!--<packaging>jar</packaging> -->
+    <packaging>web</packaging>
     <version>1.0-SNAPSHOT</version>
     <name>ZooJava - learning</name>
     <description>Project to learn Java</description>
