@@ -5,9 +5,9 @@ package ru.finstream.domain.family;
  */
 public interface FishIface {
 
-    enum enumWhereIsHome {River,See,Ocean};
+    enum WhereIsHome {River,See,Ocean};
 
-    boolean setWhereIsHome(enumWhereIsHome value);
+    boolean setWhereIsHome(WhereIsHome value);
 
-    enumWhereIsHome getWhereIsHome();
+    WhereIsHome getWhereIsHome();
 }

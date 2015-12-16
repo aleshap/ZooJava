@@ -7,14 +7,14 @@ import ru.finstream.structure.Animal;
  */
 abstract public class Fish extends Animal implements FishIface {
 
-    private enumWhereIsHome WhereIsHome;
+    private FishIface.WhereIsHome WhereIsHome;
 
-    public boolean setWhereIsHome(enumWhereIsHome value){
+    public boolean setWhereIsHome(FishIface.WhereIsHome value){
         this.WhereIsHome=value;
         return true;
     };
 
-    public enumWhereIsHome getWhereIsHome(){
+    public FishIface.WhereIsHome getWhereIsHome(){
         return this.WhereIsHome;
     };
 
